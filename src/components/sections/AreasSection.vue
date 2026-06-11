@@ -9,9 +9,9 @@ import {
 const services = [
     {
         id: "01",
-        title: "Direito Trabalhista",
+        title: "Direito Digital",
         description:
-            "Defesa dos direitos de trabalhadores e empresas em questões trabalhistas.",
+            "Defesa dos direitos e interesses em questões de direito digital.",
         icon: Scale,
     },
     {
@@ -34,7 +34,8 @@ const services = [
 <template>
     <section id="areas" class="bg-[#F4F1EB] py-6">
         <div class="mx-auto max-w-7xl px-6 lg:px-10">
-            <hr className="h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80 my-2.5 md:my-3" />
+            <hr
+                className="h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80 my-2.5 md:my-3" />
             <div class="mb-20 my-20">
                 <div class="flex items-center gap-4 mb-6">
                     <div class="h-px w-8 bg-black/20" />
@@ -45,12 +46,13 @@ const services = [
                 </div>
 
                 <h2 class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]">
-                    Soluções jurídicas <span class="font-extralight tracking-tighter  font-serif text-[#2958FF] italic">para proteger seus
+                    Soluções jurídicas <span class="font-medium tracking-tighter font-serif text-[#2958FF] italic">para
+                        proteger seus
                         direitos.</span>
                 </h2>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="grid mt-24 border-t border-black/10 grid-cols-1 lg:grid-cols-3">
                 <article v-for="service in services" :key="service.id"
                     class="group flex min-h-80 flex-col justify-between border-b border-black/10 py-10 transition-all duration-300 hover:bg-[#020B21] hover:border-[#020B21] lg:border-b-0 lg:border-r lg:px-10">
                     <div>

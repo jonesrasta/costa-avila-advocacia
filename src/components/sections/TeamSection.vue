@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-vue-next";
 const lawyers = [
   {
     name: "Camila Avila",
-    role: "Direito Trabalhista",
+    role: "Direito Digital",
     image: "/teams/camila.webp",
   },
   {
@@ -46,7 +46,7 @@ const lawyers = [
           class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
         >
           Profissionais comprometidos
-          <span class="font-extralight tracking-tighter font-serif italic text-[#2958FF]">
+          <span class="font-medium tracking-tighter font-serif italic text-[#2958FF]">
             com a excelência jurídica.
           </span>
         </h2>

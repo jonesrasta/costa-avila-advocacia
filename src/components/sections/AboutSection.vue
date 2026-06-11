@@ -27,7 +27,7 @@ import { Motion } from "motion-v";
             class="max-w-xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
           >
             Experiência jurídica
-            <span class="font-extralight tracking-tighter  font-serif italic text-[#2958FF]">
+            <span class="font-medium tracking-tighter font-serif italic text-[#2958FF]">
               com foco em resultados
             </span>
             e segurança.

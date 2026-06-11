@@ -28,7 +28,7 @@ import { ArrowRight } from "lucide-vue-next";
           <h1
             class="max-w-172.5 text-[44px] font-bold md:font-semibold leading-none text-[#020B21] lg:text-[65px] md:-mt-20">
             Transformamos desafios jurídicos em
-            <span class="font-extralight font-serif tracking-tighter italic text-[#2958FF]">
+            <span class="font-medium font-serif tracking-tighter italic text-[#2958FF]">
               segurança e confiança.
             </span>
           </h1>
