@@ -19,7 +19,7 @@ import { Icon } from "@iconify/vue";
                         </span>
                     </div>
 
-                    <h2 class="max-w-2xl text-4xl font-bold tracking-tight leading-none lg:text-6xl">
+                    <h2 class="max-w-2xl text-4xl font-bold tracking-tighter leading-none lg:text-6xl">
                         Transforme desafios jurídicos
                         <span class="font-light font-serif tracking-tighter italic text-[#2958FF]">
                             em decisões mais seguras.

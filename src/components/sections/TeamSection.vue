@@ -43,7 +43,7 @@ const lawyers = [
         </div>
 
         <h2
-          class="max-w-3xl text-[44px] lg:text-6xl font-bold tracking-tight leading-none text-[#020B21]"
+          class="max-w-3xl text-[44px] lg:text-6xl font-bold tracking-tighter leading-none text-[#020B21]"
         >
           Profissionais comprometidos
           <span class="font-medium tracking-tighter font-serif italic text-[#2958FF]">
