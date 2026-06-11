@@ -46,7 +46,7 @@ const testimonials = [
           class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
         >
           A confiança dos nossos clientes
-          <span class="font-medium italic text-[#2958FF]">
+          <span class="font-extralight tracking-tighter  font-serif italic text-[#2958FF]">
             é o nosso maior resultado.
           </span>
         </h2>

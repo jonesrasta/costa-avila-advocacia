@@ -33,7 +33,7 @@ import {
           class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
         >
           Estamos prontos para
-          <span class="font-light italic text-[#2958FF]">
+          <span class="font-light tracking-tighter font-serif italic text-[#2958FF]">
             atender você.
           </span>
         </h2>

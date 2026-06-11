@@ -46,7 +46,7 @@ const lawyers = [
           class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
         >
           Profissionais comprometidos
-          <span class="font-light italic text-[#2958FF]">
+          <span class="font-extralight tracking-tighter font-serif italic text-[#2958FF]">
             com a excelência jurídica.
           </span>
         </h2>
@@ -71,7 +71,7 @@ const lawyers = [
             <img
               :src="lawyer.image"
               :alt="lawyer.name"
-              class="h- w-full object-cover grayscale transition duration-500 group-hover:scale-105 hover:grayscale-0"
+              class="h- w-full object-cover md:grayscale transition duration-500 group-hover:scale-105 hover:grayscale-0"
             />
           </div>
 

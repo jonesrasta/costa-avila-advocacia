@@ -13,10 +13,10 @@ const menuItems = [
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 z-50 w-full border-b border-black/10 bg-[#F4F1EB]">
-    <div class="mx-auto flex h-18 max-w-7xl items-center justify-between px-2 lg:px-10">
+  <header class="fixed mx-auto top-0 left-0 z-50 w-full border-b border-black/10 bg-[#F4F1EB] overflow-hidden">
+    <div class="flex h-18 max-w-7xl items-center justify-between md:mx-auto mx-2 lg:px-10">
       <a href="#inicio">
-        <img :src="logo" alt="Costa Advocacia" class="h-12 w-auto shrink-0" />
+        <img :src="logo" alt="Costa Advocacia" class="h-14 w-auto shrink-0 px-2" />
       </a>
 
       <nav class="hidden md:block">

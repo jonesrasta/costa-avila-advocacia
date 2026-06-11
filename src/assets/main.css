@@ -1,20 +1,26 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Serif+Display:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap");
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-serif: "Noto Serif Display", serif;
+}
 
 :root {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-sans);
 }
 
 body {
   margin: 0;
-  font-family: "DM Sans", sans-serif;
-  font-family: var(--font-dm);
+  font-family: var(--font-sans);
+  font-optical-sizing: auto;
   background-color: #F4F1EB;
   overflow-x: hidden;
 }
 
-
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 section {

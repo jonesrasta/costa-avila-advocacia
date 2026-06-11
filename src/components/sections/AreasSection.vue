@@ -45,7 +45,7 @@ const services = [
                 </div>
 
                 <h2 class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]">
-                    Soluções jurídicas <span class="font-light text-[#2958FF] italic">para proteger seus
+                    Soluções jurídicas <span class="font-extralight tracking-tighter  font-serif text-[#2958FF] italic">para proteger seus
                         direitos.</span>
                 </h2>
             </div>
