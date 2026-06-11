@@ -16,17 +16,17 @@ import { ArrowRight } from "lucide-vue-next";
 
     <div class="mx-auto grid max-w-7xl items-center gap-20 px-4 lg:grid-cols-2 lg:px-10">
       <!-- Conteúdo com z-10 para ficar na frente da imagem mobile -->
-      <div class="relative z-10">
+      <div class="relative z-10 md:-mt-20 md:mx-4">
         <Motion class="overflow-hidden" :initial="{ opacity: 0, y: 40 }" :animate="{ opacity: 1, y: 0 }"
           :transition="{ duration: 0.8 }">
-          <span class="mb-4 block text-xs md:text-sm uppercase tracking-[0.35em] text-[#020B21] md:-mt-20">
+          <span class="mb-6 text-xs md:text-sm uppercase tracking-[0.35em] text-[#020B21]/65">
             Advocacia <span class="text-[#020B21]/65"> • </span> Atendimento Especializado
           </span>
         </Motion>
 
         <Motion :initial="{ opacity: 0, y: 50 }" :animate="{ opacity: 1, y: 0 }" :transition="{ duration: 1 }">
           <h1
-            class="max-w-172.5 text-[44px] font-bold md:font-semibold leading-none text-[#020B21] lg:text-[65px] md:-mt-20">
+            class="max-w-172.5 text-[44px] font-bold md:font-semibold leading-none text-[#020B21] lg:text-[65px]">
             Transformamos desafios jurídicos em
             <span class="font-medium font-serif tracking-tighter italic text-[#2958FF]">
               segurança e confiança.

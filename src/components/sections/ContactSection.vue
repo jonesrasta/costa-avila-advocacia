@@ -86,7 +86,7 @@ import {
                 </h3>
 
                 <p class="mt-1 text-zinc-600">
-                  contato@camilaavila.adv.br
+                  contato@costaeavila.com.br
                 </p>
               </div>
             </div>
