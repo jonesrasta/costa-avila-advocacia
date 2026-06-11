@@ -76,6 +76,7 @@ import { Icon } from "@iconify/vue";
                     </h4>
 
                     <ul class="space-y-4 text-white/80">
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#inicio">Ínicio</a></li>
                         <li class="transition duration-300 hover:text-[#2958FF]"><a href="#areas">Áreas de Atuação</a></li>
                         <li class="transition duration-300 hover:text-[#2958FF]"><a href="#escritorio">O Escritório</a></li>
                         <li class="transition duration-300 hover:text-[#2958FF]"><a href="#advogados">Advogados</a></li>
