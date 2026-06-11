@@ -53,7 +53,7 @@ const services = [
                 </div>
 
                 <h2
-                    class="max-w-3xl text-[44px] font-bold tracking-tight md:tracking-normal leading-none text-[#020B21] lg:text-6xl">
+                    class="max-w-3xl text-[44px] font-bold tracking-tight leading-none text-[#020B21] lg:text-6xl">
                     Soluções jurídicas
 
                     <span class="font-serif font-medium italic tracking-tighter text-[#2958FF]">

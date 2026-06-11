@@ -26,7 +26,7 @@ import { ArrowRight } from "lucide-vue-next";
         </Motion>
 
         <Motion :initial="{ opacity: 0, y: 50 }" :animate="{ opacity: 1, y: 0 }" :transition="{ duration: 1 }">
-          <h1 class="max-w-172.5 md:w-3xl text-[44px] font-bold md:font-semibold tracking-tight md:tracking-normal leading-none text-[#020B21] lg:text-[65px]">
+          <h1 class="max-w-172.5 md:w-3xl text-[44px] font-bold md:font-semibold tracking-tight leading-none text-[#020B21] lg:text-[65px]">
             Transformamos desafios jurídicos em
             <span class="font-medium font-serif tracking-tighter italic text-[#2958FF]">
               segurança e confiança.

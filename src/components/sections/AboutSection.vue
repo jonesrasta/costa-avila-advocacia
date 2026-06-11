@@ -24,7 +24,7 @@ import { Motion } from "motion-v";
           </div>
 
           <h2
-            class="max-w-xl text-[44px] lg:text-6xl font-bold tracking-tight md:tracking-normal leading-none text-[#020B21]"
+            class="max-w-xl text-[44px] lg:text-6xl font-bold tracking-tight leading-none text-[#020B21]"
           >
             Experiência jurídica
             <span class="font-medium tracking-tighter font-serif italic text-[#2958FF]">
