@@ -36,7 +36,7 @@ import { ArrowRight } from "lucide-vue-next";
 
         <Motion class="overflow-hidden" :initial="{ opacity: 0 }" :animate="{ opacity: 1 }"
           :transition="{ delay: 0.4, duration: 1 }">
-          <p class="mt-6 font-light max-w-xl text-lg md:text-xl leading-relaxed text-zinc-900">
+          <p class="mt-6 font-light max-w-xs md:max-w-xl text-lg md:text-xl leading-relaxed text-zinc-900">
             Atuamos com dedicação, estratégia e excelência para garantir
             segurança jurídica em cada etapa da sua jornada.
           </p>
@@ -45,7 +45,7 @@ import { ArrowRight } from "lucide-vue-next";
         <Motion class="mt-10 flex gap-3 overflow-hidden" :initial="{ opacity: 0, y: 20 }"
           :animate="{ opacity: 1, y: 0 }" :transition="{ delay: 0.6 }">
           <a href="#areas"
-            class="group flex items-center gap-2 whitespace-nowrap bg-[#020B21] hover:bg-[#2958FF] px-5 md:px-8 py-3.5 font-medium text-sm text-white transition duration-300">
+            class="group flex items-center gap-2 whitespace-nowrap bg-[#020B21] hover:bg-c px-5 md:px-8 py-3.5 font-medium text-sm text-white transition duration-300">
             Áreas de Atuação
             <ArrowRight :size="17" class="transition-transform duration-300 group-hover:translate-x-1" />
           </a>

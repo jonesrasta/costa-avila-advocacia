@@ -26,7 +26,7 @@ const testimonials = [
 
 <template>
   <section id="depoimentos" class="bg-[#F4F1EB] py-14">
-    <div class="mx-auto max-w-7xl px-4 lg:px-10">
+    <div class="mx-auto max-w-7xl px-2.5 lg:px-10">
       <Motion
         class="mb-20"
         :initial="{ opacity: 0, y: 40 }"
@@ -69,7 +69,7 @@ const testimonials = [
           }"
           :in-view-options="{ once: true }"
           :while-hover="{ y: -6 }"
-          class="flex min-h-95 flex-col justify-between border-b py-10 px-4 transition-all duration-300 lg:border-b-0 lg:border-r lg:px-10"
+          class="flex min-h-95 flex-col justify-between border-b py-10 px-5 transition-all duration-300 lg:border-b-0 lg:border-r lg:px-10"
           :class="
             activeTestimonial === index
               ? 'bg-[#020B21] border-[#020B21]'

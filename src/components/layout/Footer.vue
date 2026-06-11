@@ -12,7 +12,7 @@ import { Icon } from "@iconify/vue";
             <div class="flex flex-col gap-12 pb-24 lg:flex-row lg:items-center lg:justify-between">
                 <div>
                     <div class="mb-6 flex items-center gap-4">
-                        <div class="h-px w-10 bg-white/20"></div>
+                        <div class="h-px w-10 bg-[#2958FF]/40"></div>
 
                         <span class="text-xs uppercase tracking-[0.35em] text-white/60">
                             Contato
@@ -76,11 +76,11 @@ import { Icon } from "@iconify/vue";
                     </h4>
 
                     <ul class="space-y-4 text-white/80">
-                        <li><a href="#areas">Áreas de Atuação</a></li>
-                        <li><a href="#escritorio">O Escritório</a></li>
-                        <li><a href="#advogados">Advogados</a></li>
-                        <li><a href="#depoimentos">Depoimentos</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#areas">Áreas de Atuação</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#escritorio">O Escritório</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#advogados">Advogados</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#depoimentos">Depoimentos</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
 
@@ -91,9 +91,9 @@ import { Icon } from "@iconify/vue";
                     </h4>
 
                     <ul class="space-y-4 text-white/80 mb-6">
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">WhatsApp</a></li>
-                        <li><a href="#">Email</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#">Instagram</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#">WhatsApp</a></li>
+                        <li class="transition duration-300 hover:text-[#2958FF]"><a href="#">Email</a></li>
                     </ul>
                 </div>
             </div>
