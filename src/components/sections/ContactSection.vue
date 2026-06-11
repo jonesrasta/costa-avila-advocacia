@@ -9,7 +9,7 @@ import {
 </script>
 
 <template>
-  <section class="bg-[#F4F1EB] py-32">
+  <section id="contato" class="bg-[#F4F1EB] py-14">
     <div class="mx-auto max-w-7xl px-6 lg:px-10">
       <!-- Header -->
       <Motion
@@ -30,10 +30,10 @@ import {
         </div>
 
         <h2
-          class="max-w-4xl text-[44px] lg:text-6xl font-semibold leading-tight text-[#020B21]"
+          class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
         >
           Estamos prontos para
-          <span class="font-medium italic text-[#2958FF]">
+          <span class="font-light italic text-[#2958FF]">
             atender você.
           </span>
         </h2>

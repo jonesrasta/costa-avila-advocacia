@@ -4,7 +4,7 @@ import { ArrowUpRight, Instagram, MessageCircle } from "lucide-vue-next";
 </script>
 
 <template>
-    <footer class="bg-[#020B21] text-white">
+    <footer id="footer" class="bg-[#020B21] text-white">
         <!-- CTA -->
         <section class="mx-auto max-w-7xl px-6 py-24 lg:px-10">
             <div
@@ -18,9 +18,9 @@ import { ArrowUpRight, Instagram, MessageCircle } from "lucide-vue-next";
                         </span>
                     </div>
 
-                    <h2 class="max-w-2xl text-4xl font-semibold leading-tight lg:text-6xl">
+                    <h2 class="max-w-2xl text-4xl font-bold leading-none lg:text-6xl">
                         Transforme desafios jurídicos
-                        <span class="italic font-medium text-[#2958FF]">
+                        <span class="italic font-light text-[#2958FF]">
                             em decisões mais seguras.
                         </span>
                     </h2>
@@ -55,13 +55,16 @@ import { ArrowUpRight, Instagram, MessageCircle } from "lucide-vue-next";
         <!-- Footer -->
         <section class="mx-auto max-w-7xl px-6 pb-8 lg:px-10">
             <div class="grid gap-14 py-4 lg:grid-cols-3">
+                
                 <!-- Marca -->
                 <div>
-                    <img :src="logo" alt="Costa Advocacia" class="h-14 w-auto shrink-0 mb-4" />
-
+                    <a href="#inicio">
+                        <img :src="logo" alt="Costa Advocacia" class="h-14 w-auto shrink-0 mb-4" />
+                    </a>
                     <p class="max-w-xs text-white/70 leading-relaxed">
                         Estamos prontos para oferecer o suporte jurídico que você precisa.
                     </p>
+                    
                 </div>
 
                 <!-- Navegação -->

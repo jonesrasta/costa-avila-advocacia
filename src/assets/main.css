@@ -9,6 +9,7 @@ body {
   font-family: "DM Sans", sans-serif;
   font-family: var(--font-dm);
   background-color: #F4F1EB;
+  overflow-x: hidden;
 }
 
 
@@ -16,3 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  scroll-margin-top: 100px;
+}

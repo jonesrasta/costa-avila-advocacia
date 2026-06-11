@@ -32,7 +32,7 @@ const services = [
 </script>
 
 <template>
-    <section class="bg-[#F4F1EB] pb-16">
+    <section id="areas" class="bg-[#F4F1EB] py-6">
         <div class="mx-auto max-w-7xl px-6 lg:px-10">
             <div class="my-16 border-t border-black/10 lg:grid-cols-3" />
             <div class="mb-20">
@@ -44,8 +44,8 @@ const services = [
                     </span>
                 </div>
 
-                <h2 class="max-w-3xl text-[44px] lg:text-6xl font-semibold leading-tight text-[#020B21]">
-                    Soluções jurídicas <span class="font-medium text-[#2958FF] italic">para proteger seus
+                <h2 class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]">
+                    Soluções jurídicas <span class="font-light text-[#2958FF] italic">para proteger seus
                         direitos.</span>
                 </h2>
             </div>

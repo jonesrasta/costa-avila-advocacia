@@ -3,7 +3,7 @@ import { Motion } from "motion-v";
 </script>
 
 <template>
-  <section class="bg-[#F4F1EB] py-32">
+  <section id="escritorio" class="bg-[#F4F1EB] py-28">
     <div class="mx-auto max-w-7xl px-6 lg:px-10">
       <div class="grid gap-20 lg:grid-cols-2">
         <!-- Left -->
@@ -24,10 +24,10 @@ import { Motion } from "motion-v";
           </div>
 
           <h2
-            class="max-w-xl text-[44px] lg:text-6xl font-semibold leading-tight text-[#020B21]"
+            class="max-w-xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
           >
             Experiência jurídica
-            <span class="font-medium italic text-[#2958FF]">
+            <span class="font-light italic text-[#2958FF]">
               com foco em resultados
             </span>
             e segurança.

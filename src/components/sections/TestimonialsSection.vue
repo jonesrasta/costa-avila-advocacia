@@ -22,7 +22,7 @@ const testimonials = [
 </script>
 
 <template>
-  <section class="bg-[#F4F1EB] py-32">
+  <section id="depoimentos" class="bg-[#F4F1EB] py-14">
     <div class="mx-auto max-w-7xl px-6 lg:px-10">
       <!-- Header -->
       <Motion
@@ -43,7 +43,7 @@ const testimonials = [
         </div>
 
         <h2
-          class="max-w-4xl text-[44px] lg:text-6xl font-semibold leading-tight text-[#020B21]"
+          class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
         >
           A confiança dos nossos clientes
           <span class="font-medium italic text-[#2958FF]">

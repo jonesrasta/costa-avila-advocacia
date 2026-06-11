@@ -4,20 +4,21 @@ import { ArrowRight, Scale, Phone } from "lucide-vue-next";
 </script>
 
 <template>
-  <section class="relative h-full overflow-hidden bg-[#F4F1EB] pt-44 md:pt-20 pb-16">
-    <div class="mx-auto grid max-w-7xl items-center gap-20 px-4 lg:grid-cols-2 lg:px-8">
+  <section id="inicio" class="relative h-full overflow-hidden bg-[#F4F1EB] pt-44 md:pt-20 pb-16">
+    <div class="mx-auto grid max-w-7xl items-center gap-20 px-4 lg:grid-cols-2 lg:px-10">
       <div>
         <Motion :initial="{ opacity: 0, y: 40 }" :animate="{ opacity: 1, y: 0 }" :transition="{ duration: 0.8 }">
           <span class="mb-4 block text-xs uppercase tracking-[0.35em] text-zinc-600">
-             Advocacia — Atendimento Especializado
+            Advocacia — Atendimento Especializado
           </span>
         </Motion>
 
         <Motion :initial="{ opacity: 0, y: 50 }" :animate="{ opacity: 1, y: 0 }" :transition="{ duration: 1 }">
-          <h1 class="max-w-2xl md:w-3xl text-[44px] font-bold md:font-semibold leading-none text-[#020B21] lg:text-[65px]">
+          <h1
+            class="max-w-2xl md:w-3xl text-[44px] font-bold md:font-semibold leading-none text-[#020B21] lg:text-[65px]">
             Transformamos desafios jurídicos em
 
-            <span class="font-medium italic text-[#2958FF]">
+            <span class="font-light italic text-[#2958FF]">
               segurança e confiança.
             </span>
           </h1>
@@ -25,23 +26,23 @@ import { ArrowRight, Scale, Phone } from "lucide-vue-next";
 
         <Motion :initial="{ opacity: 0 }" :animate="{ opacity: 1 }" :transition="{ delay: 0.4, duration: 1 }">
           <p class="mt-6 font-light max-w-xl text-lg md:text-xl leading-relaxed text-zinc-600">
-            Atuamos com dedicação, estratégia e excelência para garantir 
+            Atuamos com dedicação, estratégia e excelência para garantir
             segurança jurídica em cada etapa da sua jornada.
           </p>
         </Motion>
 
         <Motion class="mt-10 flex gap-3" :initial="{ opacity: 0, y: 20 }" :animate="{ opacity: 1, y: 0 }"
           :transition="{ delay: 0.6 }">
-          <button
+          <a href="#areas"
             class="group flex items-center gap-2 whitespace-nowrap bg-[#020B21] hover:bg-[#2958FF] px-5 md:px-8  py-3.5 font-medium text-sm text-white transition duration-300">
             Áreas de Atuação
             <ArrowRight :size="17" class="transition-transform duration-300 group-hover:translate-x-1" />
-          </button>
+          </a>
 
-          <button
+          <a href="#contato"
             class="whitespace-nowrap border border-black/10 hover:bg-[#020B21] transition duration-300 hover:text-white px-5 md:px-8 py-3.5 font-medium text-sm">
             Agendar Consulta
-          </button>
+          </a>
         </Motion>
       </div>
 
