@@ -1,10 +1,17 @@
 <script setup lang="ts">
+import { ref } from "vue";
 import {
     ArrowUpRight,
     Scale,
     BriefcaseBusiness,
     Building2,
 } from "lucide-vue-next";
+
+const activeCard = ref(0);
+const hoveredCard = ref<number | null>(null);
+
+const isActive = (index: number) =>
+    hoveredCard.value === index || activeCard.value === index;
 
 const services = [
     {
@@ -33,11 +40,12 @@ const services = [
 
 <template>
     <section id="areas" class="bg-[#F4F1EB] py-6">
-        <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div class="mx-auto max-w-7xl px-2 lg:px-10">
             <hr
-                className="h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80 my-2.5 md:my-3" />
-            <div class="mb-20 my-20">
-                <div class="flex items-center gap-4 mb-6">
+                class="my-3 h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80" />
+
+            <div class="my-20">
+                <div class="mb-6 flex items-center gap-4">
                     <div class="h-px w-8 bg-black/20" />
 
                     <span class="text-xs uppercase tracking-[0.35em] text-zinc-600">
@@ -45,41 +53,62 @@ const services = [
                     </span>
                 </div>
 
-                <h2 class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]">
-                    Soluções jurídicas <span class="font-medium tracking-tighter font-serif text-[#2958FF] italic">para
-                        proteger seus
-                        direitos.</span>
+                <h2 class="max-w-3xl text-[44px] font-bold leading-none text-[#020B21] lg:text-6xl">
+                    Soluções jurídicas
+
+                    <span class="font-serif font-medium italic tracking-tighter text-[#2958FF]">
+                        para proteger seus direitos.
+                    </span>
                 </h2>
             </div>
 
-            <div class="grid mt-24 border-t border-black/10 grid-cols-1 lg:grid-cols-3">
-                <article v-for="service in services" :key="service.id"
-                    class="group flex min-h-80 flex-col justify-between border-b border-black/10 py-10 transition-all duration-300 hover:bg-[#020B21] hover:border-[#020B21] lg:border-b-0 lg:border-r lg:px-10">
+            <div class="mt-24 grid grid-cols-1 border-t border-black/10 lg:grid-cols-3">
+                <article v-for="(service, index) in services" :key="service.id" @mouseenter="hoveredCard = index"
+                    @mouseleave="hoveredCard = null" @click="activeCard = index"
+                    class="group cursor-pointer flex min-h-80 px-6 flex-col justify-between border-b py-10 transition-all duration-300 lg:border-b-0 lg:border-r lg:px-10"
+                    :class="isActive(index)
+                            ? 'bg-[#020B21] border-[#020B21]'
+                            : 'border-black/10'
+                        ">
                     <div>
-                        <div
-                            class="mb-10 flex h-14 w-14 items-center justify-center border border-black/10 group-hover:bg-[#2958FF] hover:border-gray-200 transition-colors duration-300 group-hover:border-white/30">
-                            <component :is="service.icon" :size="22"
-                                class="text-[#020B21] transition-colors duration-300 group-hover:text-white" />
+                        <div class="mb-10 flex h-14 w-14 items-center justify-center border transition-all duration-300"
+                            :class="isActive(index)
+                                    ? 'bg-[#2958FF] border-white/30'
+                                    : 'border-black/10'
+                                ">
+                            <component :is="service.icon" :size="22" class="transition-colors duration-300" :class="isActive(index)
+                                    ? 'text-white'
+                                    : 'text-[#020B21]'
+                                " />
                         </div>
 
-                        <h3
-                            class="mb-4 text-3xl font-semibold text-[#020B21] transition-colors duration-300 group-hover:text-white">
+                        <h3 class="mb-4 text-3xl font-semibold transition-colors duration-300" :class="isActive(index)
+                                ? 'text-white'
+                                : 'text-[#020B21]'
+                            ">
                             {{ service.title }}
                         </h3>
 
-                        <p
-                            class="max-w-sm leading-relaxed text-zinc-600 transition-colors duration-300 group-hover:text-white/90">
+                        <p class="max-w-sm leading-relaxed transition-colors duration-300" :class="isActive(index)
+                                ? 'text-white/90'
+                                : 'text-zinc-600'
+                            ">
                             {{ service.description }}
                         </p>
                     </div>
 
                     <div class="mt-12 flex items-center justify-between">
-                        <span class="text-sm text-zinc-400 transition-colors duration-300 group-hover:text-white/70">
+                        <span class="text-sm transition-colors duration-300" :class="isActive(index)
+                                ? 'text-white/70'
+                                : 'text-zinc-400'
+                            ">
                             {{ service.id }}
                         </span>
 
-                        <ArrowUpRight :size="22"
-                            class="transition-all duration-300 group-hover:text-white group-hover:-translate-y-1 group-hover:translate-x-1" />
+                        <ArrowUpRight :size="22" class="transition-all duration-300" :class="isActive(index)
+                                ? 'text-white translate-x-1 -translate-y-1'
+                                : 'text-[#020B21]'
+                            " />
                     </div>
                 </article>
             </div>
