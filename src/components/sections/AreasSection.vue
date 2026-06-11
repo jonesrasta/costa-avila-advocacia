@@ -34,8 +34,8 @@ const services = [
 <template>
     <section id="areas" class="bg-[#F4F1EB] py-6">
         <div class="mx-auto max-w-7xl px-6 lg:px-10">
-            <div class="my-16 border-t border-black/10 lg:grid-cols-3" />
-            <div class="mb-20">
+            <hr className="h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80 my-2.5 md:my-3" />
+            <div class="mb-20 my-20">
                 <div class="flex items-center gap-4 mb-6">
                     <div class="h-px w-8 bg-black/20" />
 
@@ -55,7 +55,7 @@ const services = [
                     class="group flex min-h-80 flex-col justify-between border-b border-black/10 py-10 transition-all duration-300 hover:bg-[#020B21] hover:border-[#020B21] lg:border-b-0 lg:border-r lg:px-10">
                     <div>
                         <div
-                            class="mb-10 flex h-14 w-14 items-center justify-center border border-black/10 transition-colors duration-300 group-hover:border-white/30">
+                            class="mb-10 flex h-14 w-14 items-center justify-center border border-black/10 group-hover:bg-[#2958FF] hover:border-gray-200 transition-colors duration-300 group-hover:border-white/30">
                             <component :is="service.icon" :size="22"
                                 class="text-[#020B21] transition-colors duration-300 group-hover:text-white" />
                         </div>

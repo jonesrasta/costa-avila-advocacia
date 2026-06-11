@@ -8,8 +8,8 @@ import { ArrowRight, Scale, Phone } from "lucide-vue-next";
     <div class="mx-auto grid max-w-7xl items-center gap-20 px-4 lg:grid-cols-2 lg:px-10">
       <div>
         <Motion :initial="{ opacity: 0, y: 40 }" :animate="{ opacity: 1, y: 0 }" :transition="{ duration: 0.8 }">
-          <span class="mb-4 block text-xs uppercase tracking-[0.35em] text-zinc-600">
-            Advocacia — Atendimento Especializado
+          <span class="mb-4 block text-xs md:text-sm uppercase tracking-[0.35em] text-[#020B21]/40">
+            Advocacia <span class="text-[#020B21]/65"> • </span> Atendimento Especializado
           </span>
         </Motion>
 

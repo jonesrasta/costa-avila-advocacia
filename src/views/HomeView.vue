@@ -7,6 +7,7 @@ import TeamSection from "@/components/sections/TeamSection.vue";
 import TestimonialsSection from "@/components/sections/TestimonialsSection.vue";
 import ContactSection from "@/components/sections/ContactSection.vue";
 import Footer from "@/components/layout/Footer.vue";
+import WhatsAppButton from "@/components/layout/WhatsAppButton.vue";
 
 </script>
 
@@ -20,5 +21,6 @@ import Footer from "@/components/layout/Footer.vue";
     <TestimonialsSection />
     <ContactSection />
     <Footer />
+    <WhatsAppButton />
   </main>
 </template>

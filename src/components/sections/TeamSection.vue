@@ -71,7 +71,7 @@ const lawyers = [
             <img
               :src="lawyer.image"
               :alt="lawyer.name"
-              class="h- w-full object-cover transition duration-500 group-hover:scale-105"
+              class="h- w-full object-cover grayscale transition duration-500 group-hover:scale-105 hover:grayscale-0"
             />
           </div>
 

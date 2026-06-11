@@ -74,11 +74,11 @@ import { ArrowUpRight, Instagram, MessageCircle } from "lucide-vue-next";
                     </h4>
 
                     <ul class="space-y-4 text-white/80">
-                        <li><a href="#">Áreas de Atuação</a></li>
-                        <li><a href="#">O Escritório</a></li>
-                        <li><a href="#">Advogados</a></li>
-                        <li><a href="#">Depoimentos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#areas">Áreas de Atuação</a></li>
+                        <li><a href="#escritorio">O Escritório</a></li>
+                        <li><a href="#advogados">Advogados</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
 
