@@ -19,8 +19,8 @@ const menuItems = [
         <img :src="logo" alt="Costa Advocacia" class="h-13 md:h-16 w-auto shrink-0" />
       </a>
 
-      <nav class="hidden md:block">
-        <ul class="flex gap-8">
+      <nav class="hidden lg:block">
+        <ul class="flex gap-8 md:gap-5">
           <li v-for="item in menuItems" :key="item.label">
             <a :href="item.href" class="text-sm text-zinc-600 transition hover:text-black">
               {{ item.label }}
