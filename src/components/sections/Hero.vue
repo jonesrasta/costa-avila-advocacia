@@ -18,7 +18,7 @@ import { ArrowRight } from "lucide-vue-next";
     <div class="mx-auto grid max-w-7xl items-center gap-10 lg:gap-20 px-4 lg:grid-cols-2 lg:px-10">
       <!-- Conteúdo com z-10 para ficar na frente da imagem mobile -->
       <div class="relative z-10 md:-mt-20 md:mx-4">
-        <Motion class="overflow-hidden" :initial="{ opacity: 0, y: 40 }" :animate="{ opacity: 1, y: 0 }"
+        <Motion class="overflow-x-hidden" :initial="{ opacity: 0, y: 40 }" :animate="{ opacity: 1, y: 0 }"
           :transition="{ duration: 0.8 }">
           <span class="mb-6 text-xs md:text-sm uppercase tracking-[0.35em] text-[#020B21]/65">
             Advocacia <span class="text-[#020B21]/65"> • </span> Atendimento Especializado
@@ -34,7 +34,7 @@ import { ArrowRight } from "lucide-vue-next";
           </h1>
         </Motion>
 
-        <Motion class="overflow-hidden" :initial="{ opacity: 0 }" :animate="{ opacity: 1 }"
+        <Motion class="overflow-x-hidden" :initial="{ opacity: 0 }" :animate="{ opacity: 1 }"
           :transition="{ delay: 0.4, duration: 1 }">
           <p class="mt-6 font-light max-w-xs md:max-w-xl text-lg md:text-xl leading-relaxed text-[#020B21]/90">
             Atuamos com dedicação, estratégia e excelência para garantir
@@ -42,10 +42,10 @@ import { ArrowRight } from "lucide-vue-next";
           </p>
         </Motion>
 
-        <Motion class="mt-10 flex gap-3 overflow-hidden" :initial="{ opacity: 0, y: 20 }"
+        <Motion class="mt-10 flex gap-3 overflow-x-hidden" :initial="{ opacity: 0, y: 20 }"
           :animate="{ opacity: 1, y: 0 }" :transition="{ delay: 0.6 }">
           <a href="#areas"
-            class="group flex items-center gap-2 whitespace-nowrap bg-[#020B21] hover:bg-c px-5 md:px-8 py-3.5 font-medium text-sm text-white transition duration-300">
+            class="group flex items-center gap-2 whitespace-nowrap bg-[#020B21] hover:bg-[#2958FF] px-5 md:px-8 py-3.5 font-medium text-sm text-white transition duration-300">
             Áreas de Atuação
             <ArrowRight :size="17" class="transition-transform duration-300 group-hover:translate-x-1" />
           </a>
