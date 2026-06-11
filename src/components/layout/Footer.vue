@@ -59,7 +59,7 @@ import { ArrowUpRight, Instagram, MessageCircle } from "lucide-vue-next";
                 <!-- Marca -->
                 <div>
                     <a href="#inicio">
-                        <img :src="logo" alt="Costa Advocacia" class="h-16 w-auto shrink-0 mb-4" />
+                        <img :src="logo" alt="Costa Advocacia" class="h-18 w-auto shrink-0 mb-4" />
                     </a>
                     <p class="max-w-xs text-white/70 leading-relaxed">
                         Estamos prontos para oferecer o suporte jurídico que você precisa.
