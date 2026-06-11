@@ -39,11 +39,8 @@ const services = [
 </script>
 
 <template>
-    <section id="areas" class="bg-[#F4F1EB] py-6">
+    <section id="areas" class="bg-[#F4F1EB] md:py-4">
         <div class="mx-auto max-w-7xl px-2 lg:px-10">
-            <hr
-                class="my-3 h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80" />
-
             <div class="my-20">
                 <div class="mb-6 flex items-center gap-4">
                     <div class="h-px w-8 bg-black/20" />
@@ -53,7 +50,7 @@ const services = [
                     </span>
                 </div>
 
-                <h2 class="max-w-3xl text-[44px] font-bold leading-none text-[#020B21] lg:text-6xl">
+                <h2 class="max-w-3xl text-[44px] font-bold tracking-tight md:tracking-normal leading-none text-[#020B21] lg:text-6xl">
                     Soluções jurídicas
 
                     <span class="font-serif font-medium italic tracking-tighter text-[#2958FF]">

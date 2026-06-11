@@ -22,7 +22,7 @@ const lawyers = [
 </script>
 
 <template>
-  <section id="advogados" class="bg-[#F4F1EB] py-14">
+  <section id="advogados" class="bg-[#F4F1EB] py-6 md:py-14">
     <div class="mx-auto max-w-7xl px-6 lg:px-10">
       <!-- Header -->
       <Motion
@@ -43,7 +43,7 @@ const lawyers = [
         </div>
 
         <h2
-          class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
+          class="max-w-3xl text-[44px] lg:text-6xl font-bold tracking-tight md:tracking-normal leading-none text-[#020B21]"
         >
           Profissionais comprometidos
           <span class="font-medium tracking-tighter font-serif italic text-[#2958FF]">

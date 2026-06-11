@@ -30,7 +30,7 @@ import {
         </div>
 
         <h2
-          class="max-w-3xl text-[44px] lg:text-6xl font-bold leading-none text-[#020B21]"
+          class="max-w-3xl text-[44px] lg:text-6xl font-bold tracking-tight md:tracking-normal leading-none text-[#020B21]"
         >
           Estamos prontos para
           <span class="font-medium tracking-tighter font-serif italic text-[#2958FF]">

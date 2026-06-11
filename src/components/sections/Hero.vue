@@ -7,9 +7,10 @@ import { ArrowRight } from "lucide-vue-next";
   <section id="inicio" class="relative h-full overflow-x-hidden bg-[#F4F1EB] pt-44 md:pt-20 pb-16">
 
     <!-- Imagem mobile: visível só abaixo de lg, posicionada atrás (z-0) -->
-    <Motion class="absolute inset-y-0 overflow-hidden right-0 w-2/3 lg:hidden z-0 pointer-events-none" :initial="{ opacity: 0, x: 100 }"
-      :animate="{ opacity: 1, x: 0 }" :transition="{ delay: 0.5, duration: 1 }">
-      <div class="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-size-[60px_60px] -mt-4" />
+    <Motion class="absolute inset-y-0 overflow-hidden right-0 w-2/3 lg:hidden z-0 pointer-events-none"
+      :initial="{ opacity: 0, x: 100 }" :animate="{ opacity: 1, x: 0 }" :transition="{ delay: 0.5, duration: 1 }">
+      <div
+        class="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-size-[60px_60px] -mt-4" />
       <img src="@/assets/lady-justice.webp" alt="" class="w-full h-full object-cover object-left mt-20" />
       <div class="absolute inset-0 bg-linear-to-r from-[#F4F1EB] via-[#F4F1EB]/75 to-transparent" />
     </Motion>
@@ -25,8 +26,7 @@ import { ArrowRight } from "lucide-vue-next";
         </Motion>
 
         <Motion :initial="{ opacity: 0, y: 50 }" :animate="{ opacity: 1, y: 0 }" :transition="{ duration: 1 }">
-          <h1
-            class="max-w-172.5 text-[44px] font-bold md:font-semibold leading-none text-[#020B21] lg:text-[65px]">
+          <h1 class="max-w-172.5 text-[44px] font-bold md:font-semibold tracking-tight md:tracking-normal leading-none text-[#020B21] lg:text-[65px]">
             Transformamos desafios jurídicos em
             <span class="font-medium font-serif tracking-tighter italic text-[#2958FF]">
               segurança e confiança.
@@ -75,4 +75,6 @@ import { ArrowRight } from "lucide-vue-next";
       </Motion>
     </div>
   </section>
+  <hr
+    class="my-16 h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80" />
 </template>
