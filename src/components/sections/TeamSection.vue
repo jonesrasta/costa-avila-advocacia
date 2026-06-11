@@ -23,7 +23,7 @@ const lawyers = [
 
 <template>
   <section id="advogados" class="bg-[#F4F1EB] py-6 md:py-14">
-    <div class="mx-auto max-w-7xl px-6 lg:px-10">
+    <div class="mx-auto max-w-7xl px-3 lg:px-10">
       <!-- Header -->
       <Motion
         class="mb-20"

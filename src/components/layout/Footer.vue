@@ -8,8 +8,8 @@ import { Icon } from "@iconify/vue";
 <template>
     <footer id="footer" class="bg-[#020B21] text-white">
         <!-- CTA -->
-        <section class="mx-auto max-w-7xl px-6 py-24 lg:px-10">
-            <div class="flex flex-col gap-12 pb-24 lg:flex-row lg:items-center lg:justify-between">
+        <section class="mx-auto max-w-7xl px-6 py-18 md:py-24 lg:px-10">
+            <div class="flex flex-col gap-12 pb-18 md:pb-24 lg:flex-row lg:items-center lg:justify-between">
                 <div>
                     <div class="mb-6 flex items-center gap-4">
                         <div class="h-px w-10 bg-[#2958FF]/40"></div>
@@ -61,7 +61,7 @@ import { Icon } from "@iconify/vue";
                 <!-- Marca -->
                 <div>
                     <a href="#inicio">
-                        <img :src="logo" alt="Costa Advocacia" class="h-18 w-auto shrink-0 mb-4" />
+                        <img :src="logo" alt="Costa Advocacia" class="h-16 md:h-18 w-auto shrink-0 mb-4 -mt-8 md:mt-0" />
                     </a>
                     <p class="max-w-xs text-white/70 leading-relaxed">
                         Estamos prontos para oferecer o suporte jurídico que você precisa.
