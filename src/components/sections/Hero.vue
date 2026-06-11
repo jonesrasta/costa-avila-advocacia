@@ -26,7 +26,7 @@ import { ArrowRight } from "lucide-vue-next";
         </Motion>
 
         <Motion :initial="{ opacity: 0, y: 50 }" :animate="{ opacity: 1, y: 0 }" :transition="{ duration: 1 }">
-          <h1 class="max-w-172.5 text-[44px] font-bold md:font-semibold tracking-tight md:tracking-normal leading-none text-[#020B21] lg:text-[65px]">
+          <h1 class="max-w-172.5 md:w-3xl text-[44px] font-bold md:font-semibold tracking-tight md:tracking-normal leading-none text-[#020B21] lg:text-[65px]">
             Transformamos desafios jurídicos em
             <span class="font-medium font-serif tracking-tighter italic text-[#2958FF]">
               segurança e confiança.
@@ -36,7 +36,7 @@ import { ArrowRight } from "lucide-vue-next";
 
         <Motion class="overflow-hidden" :initial="{ opacity: 0 }" :animate="{ opacity: 1 }"
           :transition="{ delay: 0.4, duration: 1 }">
-          <p class="mt-6 font-light max-w-xs md:max-w-xl text-lg md:text-xl leading-relaxed text-zinc-900">
+          <p class="mt-6 font-light max-w-xs md:max-w-xl text-lg md:text-xl leading-relaxed text-[#020B21]/90">
             Atuamos com dedicação, estratégia e excelência para garantir
             segurança jurídica em cada etapa da sua jornada.
           </p>
@@ -62,7 +62,7 @@ import { ArrowRight } from "lucide-vue-next";
         <div
           class="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-size-[60px_60px] -mt-4" />
         <img src="@/assets/lady-justice.webp" alt="Lady Justice"
-          class="absolute inset-0 w-full h-full object-cover z-10" />
+          class="absolute inset-0 w-full h-auto object-cover z-10 mt-16" />
         <!-- <div class="absolute left-20 top-20 h-24 w-24 border border-zinc-400" />
 
         <div class="absolute left-32 top-32 h-24 w-24 border border-[#2958FF]" /> -->
@@ -76,5 +76,5 @@ import { ArrowRight } from "lucide-vue-next";
     </div>
   </section>
   <hr
-    class="my-16 h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80" />
+    class="my-6 h-px border-t-0 bg-transparent bg-linear-to-r from-transparent via-gray-300 to-transparent opacity-80" />
 </template>

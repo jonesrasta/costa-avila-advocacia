@@ -29,7 +29,7 @@ const menuItems = [
         </ul>
       </nav>
       <a href="#footer"
-        class="group flex items-center bg-[#020B21] gap-2 hover:bg-[#2958FF] px-7 py-3.5 font-medium text-sm text-white transition duration-300">
+        class="group flex items-center bg-[#020B21] gap-2 hover:bg-[#2958FF] px-3.5 py-3.5 md:px-7 md:py-3.5 font-medium text-sm text-white transition duration-300">
         Falar Conosco
         <ArrowRight :size="17" class="transition-transform duration-300 group-hover:translate-x-1" />
       </a>
